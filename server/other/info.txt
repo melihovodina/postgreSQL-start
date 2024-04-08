@@ -1,0 +1,7 @@
+npm init -y - иницилизация проекта
+tsc --init - иницилизация ts
+npm install express - для написания кода для сервера
+npm install pg - модуль для работы с postgresql
+npm install --save-dev @types/express - типы express
+npm install --save-dev @types/pg - типы pg
+npm install dotenv - библиотека для хранения секретных данных
