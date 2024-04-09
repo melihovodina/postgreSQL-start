@@ -6,4 +6,6 @@ npm install --save-dev @types/express - типы express
 npm install --save-dev @types/pg - типы pg
 npm install dotenv - библиотека для хранения секретных данных
 
-sudo -u postgres psql - терминад постгреса
+sudo -u postgres psql - терминал постгреса
+grant usage, select on sequence post_id_seq to user
+                                person_id_seq
